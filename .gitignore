@@ -1,10 +1,30 @@
 #include<stdio.h>
 
+
 int main(){
 
-printf ("ola mundo");
+    int nome, idade, matricula, endereco, curso, periodo, disciplinas;
 
 
+    printf("\nDigite o nome:");
+    scanf("%s", &nome);
+    
+    printf("\nDigite a idade:");
+    scanf("%d", &idade);
 
+    printf("\nDigite a matricula:");
+    scanf("%s", &matricula);
+    
+    printf("\nDigite o endereco:");
+    scanf("%s", &endereco);
+    
+    printf("\nDigite o curso:");
+    scanf("%s", &curso);
+    
+    printf("\nDigite o periodo:");
+    scanf("%s", &periodo);
+    
+    printf("\nDigite as disciplinas:");
+    scanf("%s", &disciplinas);
 
 }
